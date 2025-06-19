@@ -23,6 +23,10 @@ Run using Live Server:
 2. **Install Live Server extension in VSC (if not installed)**
 Right-click index.html → Select "Open with Live Server"
 
+## Live Demo
+Visit the deployed site here:
+ https://ubiquitous-cucurucho-a8c81d.netlify.app/
+
 ## **Acknowledgements:**
 Thanks to Pixabay for royalty-free images.
 Hosted via Netlify.
