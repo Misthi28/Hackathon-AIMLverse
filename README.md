@@ -24,10 +24,10 @@ Run using Live Server:
 Right-click index.html → Select "Open with Live Server"
 
 ## **Acknowledgements:**
--Thanks to Pixabay for royalty-free images.
--Hosted via Netlify.
+Thanks to Pixabay for royalty-free images.
+Hosted via Netlify.
 
 ## **Contact:**
 Feel free to reach out for collaboration or feedback.
--GitHub: @Misthi28
--Email: misthibansal55gmail.com
+GitHub: @Misthi28
+Email: misthibansal55gmail.com
