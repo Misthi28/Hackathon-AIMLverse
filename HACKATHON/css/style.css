@@ -1,0 +1,224 @@
+/*CSS Reset*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* CSS Variable */
+:root{
+    --navbar-height: 59px;
+}
+/*Navigation Bar*/
+#navbar{
+    display: flex;
+    align-items: centre;
+    position:sticky;
+    top: 0px;
+}
+ 
+#navbar::before{
+    content: "";
+    background-color: black;
+    position:absolute;
+    top:0px;
+    left:0px;
+    height: 100%;
+    width: 100%; 
+    z-index: -1;
+    opacity:4;   
+}
+
+/*Navigation Bar: Logo and image*/
+#logo{
+    margin: 20px 33px;
+}
+
+#logo img{
+    height: 71px;
+    margin: -1px -8px;
+}
+/*Navigation Bar: List styling*/
+#navbar{
+    position:relative;
+}
+
+#navbar ul{
+    display: flex;
+}
+ 
+ 
+#navbar ul li{ 
+     list-style:none;
+    font-size:1.3rem;
+}
+
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding:38px 32px;
+    border-radius:20px;
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+    color: blue;
+    background-color:white
+}
+
+/*home section*/
+#home{
+    display:flex;
+    flex-direction:column;
+    padding:-1px 173px;
+    height: 685px; 
+    justify-content: centre;
+    align-items: centre;
+} 
+
+#home::before{
+    content: "";
+    position:absolute; 
+    background: url("../homebg.jpg") no-repeat center center/cover;
+    top:0px;
+    left:0px;
+    height: 95%;
+    width: 105%; 
+    z-index: -1;
+    opacity:0.7;
+}  
+
+#home h1{
+    color:white;
+    text-align:center;
+}
+#home p{
+    color:white;
+    text-align:center;
+    font-size:1.5rem;
+}
+
+/*About Section*/
+#about{
+    margin: 34px;
+    display: flex;
+}
+#about .box{
+    border: 2px solid brown;
+}
+#about .box img{
+    height:160px;
+    display: block;
+    margin: 0 auto;
+
+}
+#about{}
+#about{}
+#about{}
+#about{}
+
+
+/*Utility Classes*/
+.h-primary{
+    font-size: 3.8rem;
+    padding: 107px;
+}
+.h-secondary{
+    font-size: 2.8rem;
+    padding: 107px;
+}
+
+.centre{
+    text-align: center;
+}
+
+.image-overlay {
+  position: relative;
+  text-align: center;
+  color: white; /* Or any color that contrasts well with the image */
+}
+
+.image-overlay img {
+  width: 100%; /* or specific width */
+  height: auto;
+  display: block;
+}
+
+.image-overlay {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.image-overlay img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+#About{
+    display:flex;
+    flex-direction:column;
+    padding:-1px 173px;
+    height: 685px; 
+    justify-content: centre;
+    align-items: centre;
+} 
+
+#About::before{
+    content: "";
+    position:absolute; 
+    background: url("../power.png") no-repeat center center/cover;
+    height: 95%;
+    width: 105%; 
+    z-index: -1;
+    opacity:0.9;
+}  
+#About h1{
+    color:white;
+    text-align:center;
+}
+#About p{
+    color:white;
+    text-align:center;
+    font-size:1.5rem;
+}
+
+
+
+/*home section*/
+#Register{
+    margin: 34px;
+    display: flex;
+
+}
+#Register{
+    display:flex;
+    flex-direction:column;
+    padding:-1px 173px;
+    height: 685px; 
+    justify-content: centre;
+    align-items: centre;
+} 
+
+#Register::before{
+    content: "";
+    position:absolute; 
+    background: url("../reg_bg.png") no-repeat center center/cover;
+    height: 95%;
+    width: 105%; 
+    left : 0px;
+    z-index: -1;
+    opacity:0.9;
+    
+    
+}  
+
+#Register h1{
+    color:white;
+    text-align:center;
+}
+#Register p{
+    color:white;
+    text-align:center;
+    font-size:1.5rem;
+}
+
