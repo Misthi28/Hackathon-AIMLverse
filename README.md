@@ -29,5 +29,5 @@ Hosted via Netlify.
 
 ## **Contact:**
 Feel free to reach out for collaboration or feedback.
-GitHub: @Misthi28
+GitHub: @Misthi28.
 Email: misthibansal55gmail.com
